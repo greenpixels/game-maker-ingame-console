@@ -40,11 +40,11 @@ Adds an warning message to the console output.
 Adds an info message to the console outout.
 
 # Methods of obj_gm_ingame_console
-## .add_command(command_initializer : string, callback : function)
+## .add_command(command_initializer : string, callback : function) : RETURNS obj_gm_ingame_console
 Adds a command. Callback will be called with the parameters entered in the console.
 
-## .set_font(font : Asset)
+## .set_font(font : Asset) : RETURNS obj_gm_ingame_console
 Sets the font to be displayed in the console
 
-## .set_max_output_number(number : int)
+## .set_max_output_number(number : int) : RETURNS obj_gm_ingame_console
 Sets the maximum amount of messages to be displayed in the console (default: 40)
