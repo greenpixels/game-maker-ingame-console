@@ -26,14 +26,20 @@ init_ingame_console()
 	});
 ```
 
-# Functions
+# Global Functions
 ## init_ingame_console() : RETURNS obj_gm_ingame_console
 Creates a singleton console.
-## obj_gm_ingame_console.add_command(command_initializer : string, callback : function)
-Adds a command. Callback will be called with the parameters entered in the console.
 ## log_error(message : string)#
 Adds an error message to the console output.
 ## log_warn(message : string)
 Adds an warning message to the console output.
 ## log_info(message : string)
 Adds an info message to the console outout.
+
+# Methods of obj_gm_ingame_console
+## .add_command(command_initializer : string, callback : function)
+Adds a command. Callback will be called with the parameters entered in the console.
+## .set_font(font : Asset)
+Sets the font to be displayed in the console
+## .set_max_output_number(number : int)
+Sets the maximum amount of messages to be displayed in the console (default: 40)
