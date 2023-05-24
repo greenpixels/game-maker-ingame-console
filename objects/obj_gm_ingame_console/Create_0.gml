@@ -45,10 +45,12 @@ function __trigger_command(_command_initializer, _params_array) {
 
 function set_font(_font) {
 	obj_gm_ingame_console.font = _font;
+	return obj_gm_ingame_console;
 }
 
 function set_max_output_number(_number) {
 	obj_gm_ingame_console.max_outputs = _number;	
+	return obj_gm_ingame_console;
 }
 
 function add_command(_initializer, _callback) {
