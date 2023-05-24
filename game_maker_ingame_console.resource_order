@@ -1,0 +1,11 @@
+{
+  "FolderOrderSettings": [
+    {"name":"gm_ingame_console","order":5,"path":"folders/gm_ingame_console.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"r_test","order":4,"path":"rooms/r_test/r_test.yy",},
+    {"name":"scr_gm_ingame_console_init","order":2,"path":"scripts/scr_gm_ingame_console_init/scr_gm_ingame_console_init.yy",},
+    {"name":"scr_gm_ingame_console_log","order":1,"path":"scripts/scr_gm_ingame_console_log/scr_gm_ingame_console_log.yy",},
+    {"name":"___package_info","order":3,"path":"notes/___package_info/___package_info.yy",},
+  ],
+}

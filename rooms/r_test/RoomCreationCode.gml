@@ -1,0 +1,1 @@
+init_ingame_console()

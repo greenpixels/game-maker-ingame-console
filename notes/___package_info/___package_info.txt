@@ -1,0 +1,10 @@
+# This file is just to keep track of the package naming
+
+publisher name:
+	greenpixels_
+	
+display name:
+	game_maker_ingame_console
+	
+display name:
+	game_maker_ingame_console
