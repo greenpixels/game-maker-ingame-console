@@ -39,7 +39,7 @@ function __trigger_command(_command_initializer, _params_array) {
 			}
 		}
 	} else {
-		log_warn($"A command by the name of '{_command_initializer}' does not exist.");	
+		log_warn($"Command \"{_command_initializer}\" does not exist.");	
 	}
 }
 
